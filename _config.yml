@@ -35,8 +35,11 @@ twitter_creator:
 twitter_image:
 twitter_alt:
 
+appStoreLink: https://itunes.apple.com/de/app/rheingau-musik-festival/id1342729274?mt=8
+playStoreLink:
 
-show_logo: false
+show_logo: true
+primary_cta_label: Become a Partner
 
 show_app_icon: true
 app_icon_alignment: text-center
@@ -48,8 +51,8 @@ title_alignment: text-center
 subtitle: The addictive AR game for iPhone X.
 subtitle_alignment: text_center
 
-description:
-description_alignment:
+description: Premum mobile white-label apps for concerts series and ffeestivals. etc. pps.
+description_alignment: text_left
 
 features_list:
   - icon: news@4x.png
@@ -67,8 +70,11 @@ terms_link: https://www.codeandco.com/terms/
 privacy_notice_link: https://www.codeandco.com/privacy-notice/
 contact_link: https://www.codeandco.com/contact/
 
-appStoreLink: https://itunes.apple.com/de/app/rheingau-musik-festival/id1342729274?mt=8
-playStoreLink:
+# if custom navigation:
+main_nav:
+  - title:
+    url:
+
 
 # Build settings
 markdown: kramdown

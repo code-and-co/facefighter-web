@@ -33,15 +33,16 @@ body_class: ''
                 {% endif %}
             </div>
 
-            {% if site.app_features_list %}
+            {% if site.features_list %}
             <ul class="list-unstyled">
                 {% for feature in site.features_list %}
-
                 <li class="custom-control-inline">
-                    <span class="text-center">
-                      <img class="" alt="{{ feature.icon_alt }}" src="{{ site.url }}/images/{{ feature.icon }}">
-                    </span>
-                    <p class="text-left">{{ feature.text }}</p>
+                    <div class="features-list-item">
+                        <span class="text-center">
+                          <img class="" alt="{{ feature.icon_alt }}" src="{{ site.url }}/images/{{ feature.icon }}">
+                        </span>
+                        <p class="text-left">{{ feature.text }}</p>
+                    </div>
                 </li>
                 {% endfor %}
             </ul>

@@ -4,13 +4,16 @@
         <div class="container-fluid">
             <div class="navbar-header mx-auto">
                 {% if site.show_logo %}
-                    <a class="navbar-brand" href="{{ site.url }}"
+                    <a class="navbar-brand navbar-right" href="{{ site.url }}"
                        target="_blank" rel="noopener noreferrer">
                         <picture>
                             <source srcset="{{ site.url }}/images/logo.png, {{ site.url }}/images/logo@2x.png 2x">
                             <img src="{{ site.url }}/images/logo.png" alt="{{ site.title }}">
                         </picture>
                     </a>
+                {% endif %}
+                {% if site.primary_cta_label %}
+                <a class="btn btn-primary" href="{{ site.contact_link }}" target="_blank" rel="noopener noreferrer">{{ site.primary_cta_label }}</a>
                 {% endif %}
             </div>
         </div>
@@ -19,9 +22,26 @@
 
 <!--<ul id="nav"-->
 <!--class="list-unstyled mb-0 d-flex flex-column flex-md-row align-items-end align-items-md-center text-uppercase">-->
-<!--{% for link in site.data.navigation.main_nav %}-->
+<!--{% for link in site.main_nav %}-->
 <!--<li class="{% if page.url contains link.url %}active{% endif %} {% if link.color %}{{ link.color }}{% endif %}">-->
 <!--<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>-->
 <!--</li>-->
 <!--{% endfor %}-->
 <!--</ul>-->
+
+<!--<div class="collapse navbar-collapse" id="navbarText">-->
+    <!--<ul class="navbar-nav mr-auto">-->
+        <!--<li class="nav-item active">-->
+            <!--<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>-->
+        <!--</li>-->
+        <!--<li class="nav-item">-->
+            <!--<a class="nav-link" href="#">Features</a>-->
+        <!--</li>-->
+        <!--<li class="nav-item">-->
+            <!--<a class="nav-link" href="#">Pricing</a>-->
+        <!--</li>-->
+    <!--</ul>-->
+    <!--<span class="navbar-text">-->
+      <!--Navbar text with an inline element-->
+    <!--</span>-->
+<!--</div>-->

@@ -14,6 +14,9 @@
    2. Common site styles
    ---------------------------------------------------------*/
 
+html {
+  min-height: 100vh;
+}
 body {
   /*background: url(/assets/landing-page/background@3x.png) no-repeat center center fixed;*/
   background: linear-gradient(225deg, #99D6F5 0%, #749CF6 100%);
@@ -21,8 +24,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100vh;
-  width: 100vw;
 
   font-size: 16px;
   font-family: 'KBPayTheLady';
@@ -30,10 +31,7 @@ body {
 }
 
 #main {
-  position: relative;
-  top: 50%;
-  transform: perspective(1px) translateY(-50%);
-  width: 100vw;
+  margin-top: 12.5vh;
 }
 
 .navbar-brand img {
@@ -64,7 +62,10 @@ body {
   letter-spacing: .125rem;
 
   margin-bottom: 2rem;
+}
 
+p, p a {
+  letter-spacing: 0.0625rem;
 }
 
 .mobile-spacing {
@@ -90,6 +91,7 @@ ul.list-unstyled li span img {
   height: auto;
 }
 
+a:hover, a:focus, a:active,
 .app-store-badge:hover, .app-store-badge:focus, .app-store-badge:active {
   opacity: .8;
 }
@@ -109,6 +111,7 @@ ul.list-unstyled li span img {
 .footer a {
   color: #fff;
 }
+
 
 @media (max-width: 576px) {
   .title {

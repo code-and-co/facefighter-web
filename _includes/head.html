@@ -7,24 +7,23 @@
 	<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 	<meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
-	<link href="https://www.codeandco.com" rel="canonical">
+	<link href="{{ site.canonical }}" rel="canonical">
 
-	<meta name="google-site-verification" content="4-BOHngPsyW1hwAop_y18BycWGDItkTr7QJSWnq1Oeo" />
-	<meta name="google-site-verification" content="16Wj-Q59Hc60GVvtZO3JB8XQTGlM-DF-pvV3VVRL-GM" />
+	<meta name="google-site-verification" content="{{ site.google_site_verification }}" />
 
 	<meta property="og:title" content="{% if page.title %}{{page.title}}{% else %}{{ site.title }}{% endif% %}" />
 	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-	<meta property="og:image" content="{{ site.url }}/images/code-and-co.jpg">
+	<meta property="og:image" content="{{ site.url }}/images/{{ site.og_image }}">
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://www.codeandco.com/" />
+	<meta property="og:url" content="{{ site.og_url }}" />
 
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:site" content="@code_and_co">
-	<meta name="twitter:creator" content="@code_and_co">
-	<meta name="twitter:title" content="code & co.">
+	<meta name="twitter:site" content="{{ site.twitter_site }}">
+	<meta name="twitter:creator" content="{{ site.twitter_creator }}">
+	<meta name="twitter:title" content="{% if page.title %}{{page.title}}{% else %}{{ site.title }}{% endif% %}">
 	<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-	<meta name="twitter:image" content="{{ site.url }}/images/code-and-co.png">
-	<meta name="twitter:image:alt" content="code & co. logo">
+	<meta name="twitter:image" content="{{ site.url }}/images/{{ site.twitter_image }}">
+	<meta name="twitter:image:alt" content="{{ site.twitter_alt }}">
 
 	<!-- include the Bootstrap stylesheet -->
 	<link rel="stylesheet" href="{{ site.url | replace: 'http://', '//' }}/css/bootstrap.css">

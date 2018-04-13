@@ -21,7 +21,7 @@ body_class: ''
                 <div class="d-block d-sm-none mobile-spacing"><!-- spacing hack on mobile --></div>
 
                 {% if site.title_line_1 %}
-                <h1 class="title {{ site.title_alignment }}">{{ site.title_line_1 }}<br class="d-none d-sm-block">{{ site.title_line_2 }}</h1>
+                <h1 class="title {{ site.title_alignment }}">{{ site.title_line_1 }} <br class="d-none d-sm-block">{{ site.title_line_2 }}</h1>
                 {% endif %}
 
                 {% if site.subtitle %}
@@ -33,7 +33,7 @@ body_class: ''
                 {% endif %}
             </div>
 
-            <!--{% if app_features_list %}-->
+            {% if site.app_features_list %}
             <ul class="list-unstyled">
                 {% for feature in site.features_list %}
 
@@ -45,7 +45,7 @@ body_class: ''
                 </li>
                 {% endfor %}
             </ul>
-            <!--{% endif %}-->
+            {% endif %}
 
             <ul class="list-unstyled custom-control-inline text-center">
                 {% if site.appStoreLink %}

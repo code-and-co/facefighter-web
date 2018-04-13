@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   AR FaceFighter – The addictive AR game for iPhone X. Produced by code & co. (https://ww.codeandco.com)
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.facefighterapp.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://www.facefighterapp.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # custom page settings
 google_analytics_container_id: 'UA-75779488-2'
@@ -55,7 +55,7 @@ terms_link: https://www.codeandco.com/terms/
 privacy_notice_link: https://www.codeandco.com/privacy-notice/
 contact_link: https://www.codeandco.com/contact/
 
-appStoreLink: "https://itunes.apple.com/de/app/rheingau-musik-festival/id1342729274?mt=8"
+appStoreLink: https://itunes.apple.com/de/app/rheingau-musik-festival/id1342729274?mt=8
 playStoreLink:
 
 # Build settings

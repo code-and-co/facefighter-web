@@ -16,7 +16,7 @@
 title: AR FaceFighter - The Most Addictive AR Game for iPhone X
 email: hello@codeandco.com
 description: >- # this means to ignore newlines until "baseurl:"
-  AR FaceFighter – The addictive AR game for iPhone X. Produced by code & co. (https://ww.codeandco.com)
+  AR FaceFighter – The addictive AR game for iPhone X. Produced by code & co. at ww.codeandco.com.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.facefighterapp.com" # the base hostname & protocol for your site, e.g. http://example.com
@@ -38,8 +38,8 @@ twitter_alt:
 appStoreLink: https://itunes.apple.com/de/app/rheingau-musik-festival/id1342729274?mt=8
 playStoreLink:
 
-show_logo: true
-primary_cta_label: Become a Partner
+show_logo: false
+primary_cta_label:
 
 show_app_icon: true
 app_icon_alignment: text-center
@@ -55,15 +55,9 @@ description: Premum mobile white-label apps for concerts series and ffeestivals.
 description_alignment: text_left
 
 features_list:
-  - icon: news@4x.png
-    icon_alt: alt text
-    text: lorem ipsum 1
-  - icon: news@4x.png
-    icon_alt: alt text
-    text: lorem ipsum 2
-  - icon: news@4x.png
-    icon_alt: alt text
-    text: lorem ipsum 3
+#  - icon:
+#    icon_alt:
+#    text:
 
 impressum_link: https://www.codeandco.com/impressum/
 terms_link: https://www.codeandco.com/terms/

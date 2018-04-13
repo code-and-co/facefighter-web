@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61ae15e0-f2a8-417f-a052-503dba417720" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change beforePath="$PROJECT_DIR$/apple-touch-icon.png" afterPath="$PROJECT_DIR$/apple-touch-icon.png" />
-      <change beforePath="$PROJECT_DIR$/favicon-16x16.png" afterPath="$PROJECT_DIR$/favicon-16x16.png" />
-      <change beforePath="$PROJECT_DIR$/favicon-32x32.png" afterPath="$PROJECT_DIR$/favicon-32x32.png" />
-      <change beforePath="$PROJECT_DIR$/safari-pinned-tab.svg" afterPath="$PROJECT_DIR$/safari-pinned-tab.svg" />
-    </list>
+    <list default="true" id="61ae15e0-f2a8-417f-a052-503dba417720" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -238,12 +232,12 @@
       <updated>1523294858718</updated>
       <workItem from="1523294860135" duration="547000" />
       <workItem from="1523355272823" duration="13513000" />
-      <workItem from="1523607604995" duration="8775000" />
+      <workItem from="1523607604995" duration="8893000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22835000" />
+    <option name="totallyTimeSpent" value="22953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="878" extended-state="6" />

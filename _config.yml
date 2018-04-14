@@ -52,7 +52,7 @@ subtitle: The addictive AR game for iPhone X.
 subtitle_alignment: text_center
 
 description:
-description_alignment: text_left
+description_alignment:
 
 features_list:
 #  - icon:

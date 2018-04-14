@@ -22,7 +22,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.facefighterapp.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # custom page settings
-google_analytics_container_id:
+google_analytics_container_id: UA-75779488-7
 google_site_verification:
 
 canonical: http://www.facefighterapp.com

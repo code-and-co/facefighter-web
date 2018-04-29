@@ -5,8 +5,31 @@ body_class: ''
 
 
 <div class="container">
-  <h1 class="title {{ site.title_alignment }}">Privacy Policy</h1>
-  <h1 class="title {{ site.title_alignment }}">Terms & Use</h1>
+  <div class="mx-auto text-center mb-5">
+      <a class="navbar-brand" href="{{ site.url }}" rel="noopener noreferrer">
+          <img src="{{ site.url }}/images/ios-app-icon@2x.png" alt="{{ site.title }}">
+      </a>
+  </div>
+  <div class="">
+    <ul class="list-unstyled custom-control-inline text-center">
+        <li>
+            <a class="col-sm-6" href="{{ site.url }}/legal/privacy-notice" rel="noopener noreferrer">
+                <img class="app-store-badge" src="{{ site.url }}/images/privacy@3x.png" alt="{{ site.title }}">
+            </a>
+        </li>
+        <li class="mt-4">
+            <a class="col-sm-6" href="{{ site.url }}/legal/terms-of-use" rel="noopener noreferrer">
+                <img class="app-store-badge" src="{{ site.url }}/images/terms@3x.png" alt="{{ site.title }}">
+            </a>
+        </li>
+        <li class="mt-4">
+            <a class="col-sm-6" href="{{ site.url }}/legal/impressum" rel="noopener noreferrer">
+                <img class="app-store-badge" src="{{ site.url }}/images/impressum@3x.png" alt="{{ site.title }}">
+            </a>
+        </li>
+    </ul>
+
+  </div>
 
 </div>
 <!-- end container-->
